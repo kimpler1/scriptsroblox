@@ -1,6 +1,6 @@
 import { query } from "@/lib/db.server"
 import type { User } from "@/lib/types"
-import bcrypt from "bcrypt"
+import bcrypt from "bcryptjs"
 import "server-only"
 
 // Получение пользователя по имени пользователя

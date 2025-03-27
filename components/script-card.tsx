@@ -13,3 +13,5 @@ export function ScriptCard({ script }: ScriptCardProps) {
   // Обработка поля mode, которое может иметь разную структуру
   const modeName = script.mode?.name || script.modeName || "Неизвест\
 
+\
+
